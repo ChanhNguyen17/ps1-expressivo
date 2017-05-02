@@ -55,7 +55,6 @@ public interface Expression {
      * @return
      */
     static Expression buildAST(ParseTree<IntegerGrammar> p){
-        System.out.println(p);
         switch(p.getName()){
         /*
          * Since p is a ParseTree parameterized by the type IntegerGrammar, p.getName() 
@@ -122,23 +121,24 @@ public interface Expression {
                     firstM = false;
                 }else{
                     Expression zero = new Number(0);
-                    if(zero.equals(resultM)){return zero;}
+                    if(zero.equals(resultM)){
+                        return zero;}
                     
                     Expression one = new Number(1);
                     Expression resultMRight = buildAST(child);
-                    if(zero.equals(resultMRight)){return zero;}
+                    if(zero.equals(resultMRight)){
+                        return zero;}
                     
                     if(one.equals(resultM)){
                         resultM = resultMRight;
                     }else if(!one.equals(resultMRight)){
-                        result = new Multiply(resultM, resultMRight);
+                        resultM = new Multiply(resultM, resultMRight);
                     }
                 }
             }
             if (firstM) {
                 throw new RuntimeException("product must have a non whitespace child:" + p);
             }
-            System.out.println(resultM);
             return resultM;    
         case ROOT:
             /*
