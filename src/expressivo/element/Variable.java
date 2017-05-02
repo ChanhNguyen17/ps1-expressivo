@@ -22,7 +22,6 @@ public class Variable implements Expression{
         if(thatObject==null || this.getClass()!=thatObject.getClass()){
             return false;
         }
-        System.out.println(this);
         return this.sign.equals(((Variable)thatObject).sign);
     }
     

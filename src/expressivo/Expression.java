@@ -43,8 +43,9 @@ public interface Expression {
         } catch (UnableToParseException | IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
+            throw new IllegalArgumentException(e);
         }
-//        tree.display();
+        tree.display();
         return Expression.buildAST(tree);
     }
     
