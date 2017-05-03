@@ -6,7 +6,7 @@ import java.util.Set;
 import expressivo.Expression;
 
 public class Multiply implements Expression{
-private final Expression left, right;
+    private final Expression left, right;
     
     public Multiply(Expression left, Expression right){
         this.left = left;

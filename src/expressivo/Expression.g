@@ -14,8 +14,10 @@
  
 root ::= sum;
 @skip whitespace{
-	sum ::= product ('+' product)*;
-	product ::= power ('*' power)*;
+	sum ::= subtraction ('+' subtraction)*;
+	subtraction ::= product ('-' product)*;
+	product ::= division ('*' division)*;
+	division ::= power ('/' power)*;
 	power ::= primitive ('^' primitive)*;
 	primitive ::= number | variable | '(' sum ')';
 }

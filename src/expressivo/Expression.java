@@ -5,10 +5,12 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.Set;
 
+import expressivo.element.Division;
 import expressivo.element.Multiply;
 import expressivo.element.Number;
 import expressivo.element.Plus;
 import expressivo.element.Power;
+import expressivo.element.Subtract;
 import expressivo.element.Variable;
 import lib6005.parser.*;
 
@@ -27,7 +29,7 @@ public interface Expression {
     
     // Datatype definition
     //   TODO
-    enum IntegerGrammar {ROOT, SUM, PRODUCT, POWER, PRIMITIVE, NUMBER, VARIABLE, WHITESPACE};
+    enum IntegerGrammar {ROOT, SUM, SUBTRACTION, PRODUCT, DIVISION, POWER, PRIMITIVE, NUMBER, VARIABLE, WHITESPACE};
     /**
      * Parse an expression.
      * @param input expression to parse, as defined in the PS1 handout.
@@ -94,7 +96,7 @@ public interface Expression {
              */
             boolean first = true;
             Expression result = null;
-            for(ParseTree<IntegerGrammar> child : p.childrenByName(IntegerGrammar.PRODUCT)){                
+            for(ParseTree<IntegerGrammar> child : p.childrenByName(IntegerGrammar.SUBTRACTION)){                
                 if(first){
                     result = buildAST(child);
                     first = false;
@@ -112,10 +114,31 @@ public interface Expression {
                 throw new RuntimeException("sum must have a non whitespace child:" + p);
             }
             return result;
+        case SUBTRACTION:
+            boolean firstS = true;
+            Expression resultS = null;
+            for(ParseTree<IntegerGrammar> child : p.childrenByName(IntegerGrammar.PRODUCT)){                
+                if(firstS){
+                    resultS = buildAST(child);
+                    firstS = false;
+                }else{
+                    Expression zero = new Number(0);
+                    Expression resultSRight = buildAST(child);
+                    if(zero.equals(resultS)){
+                        resultS = new Multiply(new Number(-1), resultSRight);
+                    }else if(!zero.equals(resultSRight)){
+                        resultS = new Subtract(resultS, resultSRight);
+                    }
+                }
+            }
+            if (firstS) {
+                throw new RuntimeException("subtraction must have a non whitespace child:" + p);
+            }
+            return resultS;    
         case PRODUCT:
             boolean firstM = true;
             Expression resultM = null;
-            for(ParseTree<IntegerGrammar> child : p.childrenByName(IntegerGrammar.POWER)){                
+            for(ParseTree<IntegerGrammar> child : p.childrenByName(IntegerGrammar.DIVISION)){                
                 if(firstM){
                     resultM = buildAST(child);
                     firstM = false;
@@ -140,6 +163,32 @@ public interface Expression {
                 throw new RuntimeException("product must have a non whitespace child:" + p);
             }
             return resultM;
+        case DIVISION:
+            boolean firstD = true;
+            Expression resultD = null;
+            for(ParseTree<IntegerGrammar> child : p.childrenByName(IntegerGrammar.POWER)){                
+                if(firstD){
+                    resultD = buildAST(child);
+                    firstD = false;
+                }else{
+                    Expression zero = new Number(0);
+                    if(zero.equals(resultD)){return zero;}
+                    
+                    Expression one = new Number(1);
+                    Expression resultDRight = buildAST(child);
+                    if(zero.equals(resultDRight)){
+                        throw new ArithmeticException("Divide by 0");
+                    }
+                    
+                    if(!one.equals(resultDRight)){
+                        resultD = new Division(resultD, resultDRight);
+                    }
+                }
+            }
+            if (firstD) {
+                throw new RuntimeException("division must have a non whitespace child:" + p);
+            }
+            return resultD;
         case POWER:
             boolean firstP = true;
             Expression resultP = null;
