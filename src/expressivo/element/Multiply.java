@@ -1,6 +1,7 @@
 package expressivo.element;
 
 import java.util.Map;
+import java.util.Set;
 
 import expressivo.Expression;
 
@@ -48,5 +49,18 @@ private final Expression left, right;
             return String.valueOf(valueLeft * valueRight);
         }catch(NumberFormatException e){}
         return simplifyLeft + " * " + simplifyRight;
+    }
+
+    @Override
+    public Double value(Map<String, Double> environment) throws NullPointerException{
+        return this.left.value(environment) * this.right.value(environment);
+    }
+
+    @Override
+    public Set<String> allVariables(Set<String> currentSet) {
+        Set<String> setLeft = this.left.allVariables(currentSet);
+        Set<String> setRight = this.right.allVariables(currentSet);
+        setLeft.addAll(setRight);
+        return setLeft;
     };
 }

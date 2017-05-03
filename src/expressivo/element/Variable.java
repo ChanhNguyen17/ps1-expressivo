@@ -1,6 +1,7 @@
 package expressivo.element;
 
 import java.util.Map;
+import java.util.Set;
 
 import expressivo.Expression;
 
@@ -42,5 +43,16 @@ public class Variable implements Expression{
     public String simplify(Map<String, Double> environment) {
         Double value = environment.get(this.sign);
         return (value==null)? this.sign : value.toString();
-    };
+    }
+
+    @Override
+    public Double value(Map<String, Double> environment) throws NullPointerException {
+        return environment.get(sign);
+    }
+
+    @Override
+    public Set<String> allVariables(Set<String> currentSet) {
+        currentSet.add(this.sign);
+        return currentSet;
+    }
 }

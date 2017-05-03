@@ -1,6 +1,7 @@
 package expressivo.element;
 
 import java.util.Map;
+import java.util.Set;
 
 import expressivo.Expression;
 
@@ -38,5 +39,15 @@ public class Number implements Expression{
     @Override
     public String simplify(Map<String, Double> environment) {
         return this.number.toString();
+    }
+
+    @Override
+    public Double value(Map<String, Double> environment) throws NullPointerException {
+        return this.number;
+    }
+
+    @Override
+    public Set<String> allVariables(Set<String> currentSet) {
+        return currentSet;
     };
 }

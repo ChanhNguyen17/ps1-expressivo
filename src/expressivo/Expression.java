@@ -3,6 +3,7 @@ package expressivo;
 import java.io.File;
 import java.io.IOException;
 import java.util.Map;
+import java.util.Set;
 
 import expressivo.element.Multiply;
 import expressivo.element.Number;
@@ -45,7 +46,7 @@ public interface Expression {
             e.printStackTrace();
             throw new IllegalArgumentException(e);
         }
-        tree.display();
+//        tree.display();
         return Expression.buildAST(tree);
     }
     
@@ -191,4 +192,6 @@ public interface Expression {
     
     public Expression differentiate(Variable var);
     public String simplify(Map<String,Double> environment);
+    public Double value(Map<String,Double> environment) throws NullPointerException;
+    public Set<String> allVariables(Set<String> currentSet);
 }

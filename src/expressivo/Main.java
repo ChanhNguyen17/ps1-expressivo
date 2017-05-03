@@ -3,10 +3,15 @@ package expressivo;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Optional;
+import java.util.Random;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -27,49 +32,89 @@ public class Main {
      * @throws IOException if there is an error reading the input
      * @throws UnableToParseException 
      */
-    public static void main(String[] args){
-        Expression a = Expression.parse("x*3*5");
-//        Expression b = Expression.parse("x+2");
-//        System.out.println(a.equals(b));
-    }
-//    public static void main(String[] args) throws IOException{
-//        final BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-//        Optional<String> currentExpression = Optional.empty();
+//    public static void main(String[] args){
 //        
-//        while (true) {
-//            System.out.print("> ");
-//            final String input = in.readLine();
-//            
-//            if (input.isEmpty()) {
-//                return; // exits the program
-//            }
-//            
-//            try {
-//                final String output;
-//                
-//                if (input.startsWith(DIFFERENTIATE_PREFIX)) {
-//                    final String variable = parseDifferentiate(input);
-//                    output = Commands.differentiate(currentExpression.get(), variable);
-//                    currentExpression = Optional.of(output);
-//                } else if (input.startsWith(SIMPLIFY_PREFIX)) {
-//                    final Map<String,Double> environment = parseSimpify(input);
-//                    output = Commands.simplify(currentExpression.get(), environment);
-//                    // ... but don't change currentExpression
-//                } else {
-//                    final Expression expression = Expression.parse(input);
-//                    output = expression.toString();
-//                    currentExpression = Optional.of(output);
-//                }
-//                
-//                System.out.println(output);
-//            } catch (NoSuchElementException nse) {
-//                // currentExpression was empty
-//                System.out.println("must enter an expression before using this command");
-//            } catch (RuntimeException re) {
-//                System.out.println(re.getClass().getName() + ": " + re.getMessage());
-//            }
-//        }
+//        String aStr = "2*(x+y)+t";
+//        String bStr = "2*x+t+2*y";
+//        
+//        System.out.println(compare(aStr, bStr));
 //    }
+    
+    public static boolean compare(String aStr, String bStr){
+        Expression a = Expression.parse(aStr);
+        Expression b = Expression.parse(bStr);
+        Set<String> aVariables = new HashSet<>();
+        Set<String> bVariables = new HashSet<>();
+        aVariables = a.allVariables(aVariables);
+        bVariables = b.allVariables(bVariables);
+        if(!aVariables.equals(bVariables)){
+            return false;
+        }
+        return compareByExpression(a, b, aVariables);
+    }
+    
+    public static boolean compareByExpression(Expression a, Expression b, Set<String> variables){
+        Random randomize = new Random();
+        int checkTimes = 5;
+        double ea = 10e-7;
+        
+        for(int check = 0; check < checkTimes; check++){
+            Map<String,Double> envir = new HashMap<>();
+            for(String var : variables){
+                double num = randomize.nextGaussian();
+                envir.put(var, num);
+            }
+            try{
+                Double valueA = a.value(envir);
+                Double valueB = b.value(envir);
+                if(Math.abs(valueA-valueB) > ea){
+                    return false;
+                }
+            }catch(NullPointerException e){
+                return false;
+            }
+        }
+        return true;
+    }
+    
+    public static void main(String[] args) throws IOException{
+        final BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        Optional<String> currentExpression = Optional.empty();
+        
+        while (true) {
+            System.out.print("> ");
+            final String input = in.readLine();
+            
+            if (input.isEmpty()) {
+                return; // exits the program
+            }
+            
+            try {
+                final String output;
+                
+                if (input.startsWith(DIFFERENTIATE_PREFIX)) {
+                    final String variable = parseDifferentiate(input);
+                    output = Commands.differentiate(currentExpression.get(), variable);
+                    currentExpression = Optional.of(output);
+                } else if (input.startsWith(SIMPLIFY_PREFIX)) {
+                    final Map<String,Double> environment = parseSimpify(input);
+                    output = Commands.simplify(currentExpression.get(), environment);
+                    // ... but don't change currentExpression
+                } else {
+                    final Expression expression = Expression.parse(input);
+                    output = expression.toString();
+                    currentExpression = Optional.of(output);
+                }
+                
+                System.out.println(output);
+            } catch (NoSuchElementException nse) {
+                // currentExpression was empty
+                System.out.println("must enter an expression before using this command");
+            } catch (RuntimeException re) {
+                System.out.println(re.getClass().getName() + ": " + re.getMessage());
+            }
+        }
+    }
  
     private static final String DIFFERENTIATE_PREFIX = "!d/d";
     private static final String VARIABLE = "[A-Za-z]+";
