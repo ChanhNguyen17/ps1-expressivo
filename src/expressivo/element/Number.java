@@ -1,5 +1,6 @@
 package expressivo.element;
 
+import java.text.DecimalFormat;
 import java.util.Map;
 import java.util.Set;
 
@@ -15,7 +16,9 @@ public class Number implements Expression{
     
     @Override 
     public String toString(){
-        return this.number.toString();
+        DecimalFormat df = new DecimalFormat("0");
+        df.setMaximumFractionDigits(340); //340 = DecimalFormat.DOUBLE_FRACTION_DIGITS
+        return df.format(this.number);
     };
     
     @Override
@@ -38,7 +41,7 @@ public class Number implements Expression{
 
     @Override
     public String simplify(Map<String, Double> environment) {
-        return this.number.toString();
+        return this.toString();
     }
 
     @Override

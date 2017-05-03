@@ -42,7 +42,7 @@ public class Variable implements Expression{
     @Override
     public String simplify(Map<String, Double> environment) {
         Double value = environment.get(this.sign);
-        return (value==null)? this.sign : value.toString();
+        return (value==null)? this.toString() : value.toString();
     }
 
     @Override

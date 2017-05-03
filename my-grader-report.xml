@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="ChanhNguyenPC" id="0" name="CommandsTest" package="expressivo" skipped="0" tests="1" time="0.267" timestamp="2017-05-03T07:21:44">
+  <testsuite errors="0" failures="0" hostname="ChanhNguyenPC" id="0" name="CommandsTest" package="expressivo" skipped="0" tests="1" time="0.328" timestamp="2017-05-03T10:24:59">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -100,7 +100,7 @@
 
           <property name="beta.grader.jar" value="ps1-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner expressivo.CommandsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\TEST-expressivo.CommandsTest.xml crashfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junitvmwatcher161164892088993941.properties propsfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junit8314564581062205779.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner expressivo.CommandsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\TEST-expressivo.CommandsTest.xml crashfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junitvmwatcher8956367448341712316.properties propsfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junit4444960772957477750.properties" />
 
           <property name="java.class.path" value="C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\junit-4.12.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\hamcrest-core-1.3.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\parserlib.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\bin-student;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -161,7 +161,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="ChanhNguyenPC" id="1" name="ExpressionTest" package="expressivo" skipped="0" tests="1" time="0.255" timestamp="2017-05-03T07:21:45">
+  <testsuite errors="0" failures="0" hostname="ChanhNguyenPC" id="1" name="ExpressionTest" package="expressivo" skipped="0" tests="1" time="0.286" timestamp="2017-05-03T10:25:01">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -261,7 +261,7 @@
 
           <property name="beta.grader.jar" value="ps1-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner expressivo.ExpressionTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\TEST-expressivo.ExpressionTest.xml crashfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junitvmwatcher5387318591021680818.properties propsfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junit8379977874129823024.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner expressivo.ExpressionTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\TEST-expressivo.ExpressionTest.xml crashfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junitvmwatcher6446099959554560391.properties propsfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junit7870119667026674728.properties" />
 
           <property name="java.class.path" value="C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\junit-4.12.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\hamcrest-core-1.3.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\parserlib.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\bin-student;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -322,7 +322,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="ChanhNguyenPC" id="2" name="JavaInterfaceTest" package="expressivo.beta" skipped="0" tests="6" time="0.865" timestamp="2017-05-03T07:21:46">
+  <testsuite errors="0" failures="0" hostname="ChanhNguyenPC" id="2" name="JavaInterfaceTest" package="expressivo.beta" skipped="0" tests="6" time="1.675" timestamp="2017-05-03T10:25:02">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -422,7 +422,7 @@
 
           <property name="beta.grader.jar" value="ps1-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner expressivo.beta.JavaInterfaceTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\TEST-expressivo.beta.JavaInterfaceTest.xml crashfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junitvmwatcher1290149074543030861.properties propsfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junit2304468931267763550.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner expressivo.beta.JavaInterfaceTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\TEST-expressivo.beta.JavaInterfaceTest.xml crashfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junitvmwatcher7871563532918813646.properties propsfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junit7786207650783239526.properties" />
 
           <property name="java.class.path" value="C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\junit-4.12.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\hamcrest-core-1.3.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\parserlib.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\bin-student;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -476,24 +476,52 @@
 
       </properties>
 
-      <testcase classname="expressivo.beta.JavaInterfaceTest" name="testParseEquals" time="0.264" />
+      <testcase classname="expressivo.beta.JavaInterfaceTest" name="testParseEquals" time="0.565" />
 
-      <testcase classname="expressivo.beta.JavaInterfaceTest" name="testDifferentiate" time="0.048" />
+      <testcase classname="expressivo.beta.JavaInterfaceTest" name="testDifferentiate" time="0.073" />
 
-      <testcase classname="expressivo.beta.JavaInterfaceTest" name="testParseToString" time="0.069" />
+      <testcase classname="expressivo.beta.JavaInterfaceTest" name="testParseToString" time="0.045" />
 
-      <testcase classname="expressivo.beta.JavaInterfaceTest" name="testSimplifyTwice" time="0.092" />
+      <testcase classname="expressivo.beta.JavaInterfaceTest" name="testSimplifyTwice" time="0.142" />
 
-      <testcase classname="expressivo.beta.JavaInterfaceTest" name="testParseInvalid" time="0.043" />
+      <testcase classname="expressivo.beta.JavaInterfaceTest" name="testParseInvalid" time="0.058" />
 
-      <testcase classname="expressivo.beta.JavaInterfaceTest" name="testSimplify" time="0.042" />
+      <testcase classname="expressivo.beta.JavaInterfaceTest" name="testSimplify" time="0.324" />
 
       <system-out><![CDATA[]]></system-out>
 
-      <system-err><![CDATA[]]></system-err>
+      <system-err><![CDATA[lib6005.parser.UnableToParseException: String does not match grammar 
+Error in line 1 col 0
+Expected |||[0-9]|.|[a-zA-Z]|( but saw !moo<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:153)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.beta.JavaInterfaceTest.testParseInvalid(JavaInterfaceTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="ChanhNguyenPC" id="3" name="ExpressionTest" package="expressivo.grader" skipped="0" tests="27" time="1.199" timestamp="2017-05-03T07:21:50">
+  <testsuite errors="0" failures="0" hostname="ChanhNguyenPC" id="3" name="ExpressionTest" package="expressivo.grader" skipped="0" tests="27" time="1.921" timestamp="2017-05-03T10:25:08">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -593,7 +621,7 @@
 
           <property name="beta.grader.jar" value="ps1-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner expressivo.grader.ExpressionTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\TEST-expressivo.grader.ExpressionTest.xml crashfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junitvmwatcher7944998363258959190.properties propsfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junit280547910759011166.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner expressivo.grader.ExpressionTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\TEST-expressivo.grader.ExpressionTest.xml crashfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junitvmwatcher3696872629258445840.properties propsfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junit8848913126665149815.properties" />
 
           <property name="java.class.path" value="C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\junit-4.12.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\hamcrest-core-1.3.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\parserlib.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\bin-tests-final;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\bin-student;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -647,66 +675,66 @@
 
       </properties>
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[same one variable]" time="0.266" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[same one variable]" time="0.223" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[same one variable]" time="0.048" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[same one variable]" time="0.065" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[same one variable]" time="0.044" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[same one variable]" time="0.081" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[same one operator]" time="0.059" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[same one operator]" time="0.054" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[same one operator]" time="0.04" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[same one operator]" time="0.057" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[same one operator]" time="0.035" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[same one operator]" time="0.049" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[same expression with numbers/variables/operators]" time="0.032" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[same expression with numbers/variables/operators]" time="0.048" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[same expression with numbers/variables/operators]" time="0.03" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[same expression with numbers/variables/operators]" time="0.093" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[same expression with numbers/variables/operators]" time="0.022" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[same expression with numbers/variables/operators]" time="0.053" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[var and same var parenthesized]" time="0.022" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[var and same var parenthesized]" time="0.057" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[var and same var parenthesized]" time="0.028" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[var and same var parenthesized]" time="0.05" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[var and same var parenthesized]" time="0.014" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[var and same var parenthesized]" time="0.027" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[one operator and same operator parenthesized]" time="0.014" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[one operator and same operator parenthesized]" time="0.026" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[one operator and same operator parenthesized]" time="0.017" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[one operator and same operator parenthesized]" time="0.029" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[one operator and same operator parenthesized]" time="0.028" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[one operator and same operator parenthesized]" time="0.031" />
 
       <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[* + * same as (*)+(*)]" time="0.031" />
 
       <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[* + * same as (*)+(*)]" time="0.024" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[* + * same as (*)+(*)]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[* + * same as (*)+(*)]" time="0.025" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[((*)+)* different from * + *]" time="0.012" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[((*)+)* different from * + *]" time="0.06" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[((*)+)* different from * + *]" time="0.012" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[((*)+)* different from * + *]" time="0.051" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[((*)+)* different from * + *]" time="0.014" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[((*)+)* different from * + *]" time="0.033" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[+ not commutative under structual equality]" time="0.012" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[+ not commutative under structual equality]" time="0.023" />
 
       <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[+ not commutative under structual equality]" time="0.013" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[+ not commutative under structual equality]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[+ not commutative under structual equality]" time="0.017" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[* not commutative under structual equality]" time="0.012" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testHashCode[* not commutative under structual equality]" time="0.025" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[* not commutative under structual equality]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testEquals[* not commutative under structual equality]" time="0.017" />
 
-      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[* not commutative under structual equality]" time="0.02" />
+      <testcase classname="expressivo.grader.ExpressionTest" name="testToStringConsistent[* not commutative under structual equality]" time="0.021" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="14" failures="0" hostname="ChanhNguyenPC" id="4" name="ExpressivoTest" package="expressivo.grader" skipped="0" tests="152" time="4.249" timestamp="2017-05-03T07:21:52">
+  <testsuite errors="0" failures="0" hostname="ChanhNguyenPC" id="4" name="ExpressivoTest" package="expressivo.grader" skipped="0" tests="152" time="3.415" timestamp="2017-05-03T10:25:10">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -806,7 +834,7 @@
 
           <property name="beta.grader.jar" value="ps1-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner expressivo.grader.ExpressivoTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\TEST-expressivo.grader.ExpressivoTest.xml crashfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junitvmwatcher7593750516224523748.properties propsfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junit325679291621516963.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner expressivo.grader.ExpressivoTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\TEST-expressivo.grader.ExpressivoTest.xml crashfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junitvmwatcher3470222528521807400.properties propsfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junit7004501336559343048.properties" />
 
           <property name="java.class.path" value="C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\junit-4.12.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\hamcrest-core-1.3.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\parserlib.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\bin-tests-final;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\bin-student;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -860,533 +888,316 @@
 
       </properties>
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[zero]" time="0.523" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[zero]" time="0.201" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[zero]" time="0.054" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[zero]" time="0.027" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[zero]" time="0.026" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[zero]" time="0.025" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[zero]" time="0.038" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[zero]" time="0.023" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[nonzero integer]" time="0.042" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[nonzero integer]" time="0.028" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[nonzero integer]" time="0.029" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[nonzero integer]" time="0.019" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[nonzero integer]" time="0.036" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[nonzero integer]" time="0.035" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[nonzero integer]" time="0.033" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[nonzero integer]" time="0.019" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fraction &lt; 1]" time="0.025" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fraction &lt; 1]" time="0.029" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fraction &lt; 1]" time="0.026" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fraction &lt; 1]" time="0.025" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fraction &gt; 1]" time="0.022" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fraction &gt; 1]" time="0.031" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fraction &gt; 1]" time="0.033" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fraction &gt; 1]" time="0.051" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[trailing zeros]" time="0.045" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[trailing zeros]" time="0.02" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[trailing zeros]" time="0.021" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[trailing zeros]" time="0.021" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[no leading zero]" time="0.03">
-          <error message="error calling differentiate()" type="java.lang.RuntimeException">java.lang.RuntimeException: error calling differentiate()
-	at expressivo.grader.ExpressivoTest.testDifferentiate_dx(ExpressivoTest.java:113)
-Caused by: java.lang.IllegalArgumentException: lib6005.parser.UnableToParseException: String does not match grammar 
-Error in line 1 col 0
-Expected ||[0-9]|[a-z]|( but saw .77&lt;EOIN&gt;
-	at expressivo.Expression.parse(Expression.java:47)
-	at expressivo.Commands.differentiate(Commands.java:28)
-	at expressivo.grader.ExpressivoTest.testDifferentiate_dx(ExpressivoTest.java:111)
-Caused by: lib6005.parser.UnableToParseException: String does not match grammar 
-Error in line 1 col 0
-Expected ||[0-9]|[a-z]|( but saw .77&lt;EOIN&gt;
-	at lib6005.parser.Parser.parse(Parser.java:153)
-	at expressivo.Expression.parse(Expression.java:43)
-</error>
-
-      </testcase>
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[no leading zero]" time="0.025">
-          <error message="error calling differentiate()" type="java.lang.RuntimeException">java.lang.RuntimeException: error calling differentiate()
-	at expressivo.grader.ExpressivoTest.testDifferentiate_dy(ExpressivoTest.java:131)
-Caused by: java.lang.IllegalArgumentException: lib6005.parser.UnableToParseException: String does not match grammar 
-Error in line 1 col 0
-Expected ||[0-9]|[a-z]|( but saw .77&lt;EOIN&gt;
-	at expressivo.Expression.parse(Expression.java:47)
-	at expressivo.Commands.differentiate(Commands.java:28)
-	at expressivo.grader.ExpressivoTest.testDifferentiate_dy(ExpressivoTest.java:129)
-Caused by: lib6005.parser.UnableToParseException: String does not match grammar 
-Error in line 1 col 0
-Expected ||[0-9]|[a-z]|( but saw .77&lt;EOIN&gt;
-	at lib6005.parser.Parser.parse(Parser.java:153)
-	at expressivo.Expression.parse(Expression.java:43)
-</error>
-
-      </testcase>
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[no leading zero]" time="0.013">
-          <error message="error calling parse()" type="java.lang.RuntimeException">java.lang.RuntimeException: error calling parse()
-	at expressivo.grader.ExpressivoTest.testParse(ExpressivoTest.java:95)
-Caused by: java.lang.IllegalArgumentException: lib6005.parser.UnableToParseException: String does not match grammar 
-Error in line 1 col 0
-Expected ||[0-9]|[a-z]|( but saw .77&lt;EOIN&gt;
-	at expressivo.Expression.parse(Expression.java:47)
-	at expressivo.grader.ExpressivoTest.testParse(ExpressivoTest.java:93)
-Caused by: lib6005.parser.UnableToParseException: String does not match grammar 
-Error in line 1 col 0
-Expected ||[0-9]|[a-z]|( but saw .77&lt;EOIN&gt;
-	at lib6005.parser.Parser.parse(Parser.java:153)
-	at expressivo.Expression.parse(Expression.java:43)
-</error>
-
-      </testcase>
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[no leading zero]" time="0.021">
-          <error message="error calling simplify()" type="java.lang.RuntimeException">java.lang.RuntimeException: error calling simplify()
-	at expressivo.grader.ExpressivoTest.testSimplify_xyz(ExpressivoTest.java:154)
-Caused by: java.lang.IllegalArgumentException: lib6005.parser.UnableToParseException: String does not match grammar 
-Error in line 1 col 0
-Expected ||[0-9]|[a-z]|( but saw .77&lt;EOIN&gt;
-	at expressivo.Expression.parse(Expression.java:47)
-	at expressivo.Commands.simplify(Commands.java:46)
-	at expressivo.grader.ExpressivoTest.testSimplify_xyz(ExpressivoTest.java:152)
-Caused by: lib6005.parser.UnableToParseException: String does not match grammar 
-Error in line 1 col 0
-Expected ||[0-9]|[a-z]|( but saw .77&lt;EOIN&gt;
-	at lib6005.parser.Parser.parse(Parser.java:153)
-	at expressivo.Expression.parse(Expression.java:43)
-</error>
-
-      </testcase>
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fraction very small]" time="0.02" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fraction very small]" time="0.018" />
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fraction very small]" time="0.021">
-          <error message="invalid Expression.toString (staff parser could not parse)" type="java.lang.RuntimeException">java.lang.RuntimeException: invalid Expression.toString (staff parser could not parse)
-	at expressivo.grader.ExpressivoTest.testParse(ExpressivoTest.java:100)
-Caused by: expressivo.staff.SyntaxError: Character 3: expected end_of_input, got E in expression &quot;1.0E-6&quot;
-	at expressivo.staff.Parser.parse(Parser.java:23)
-	at expressivo.staff.Parser.parse(Parser.java:13)
-	at expressivo.grader.ExpressivoTest.testParse(ExpressivoTest.java:98)
-Caused by: expressivo.staff.SyntaxError: Character 3: expected end_of_input, got E
-	at expressivo.staff.Parser.eat(Parser.java:129)
-	at expressivo.staff.Parser.parse(Parser.java:48)
-	at expressivo.staff.Parser.parse(Parser.java:21)
-</error>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fraction &lt; 1]" time="0.019" />
 
-      </testcase>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fraction &lt; 1]" time="0.02" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fraction very small]" time="0.022">
-          <error message="invalid simplified expression (staff parser could not parse)" type="java.lang.RuntimeException">java.lang.RuntimeException: invalid simplified expression (staff parser could not parse)
-	at expressivo.grader.ExpressivoTest.testSimplify_xyz(ExpressivoTest.java:159)
-Caused by: expressivo.staff.SyntaxError: Character 3: expected end_of_input, got E in expression &quot;1.0E-6&quot;
-	at expressivo.staff.Parser.parse(Parser.java:23)
-	at expressivo.staff.Parser.parse(Parser.java:13)
-	at expressivo.grader.ExpressivoTest.testSimplify_xyz(ExpressivoTest.java:157)
-Caused by: expressivo.staff.SyntaxError: Character 3: expected end_of_input, got E
-	at expressivo.staff.Parser.eat(Parser.java:129)
-	at expressivo.staff.Parser.parse(Parser.java:48)
-	at expressivo.staff.Parser.parse(Parser.java:21)
-</error>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fraction &lt; 1]" time="0.014" />
 
-      </testcase>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fraction &gt; 1]" time="0.01" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[integer very large]" time="0.024" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fraction &gt; 1]" time="0.014" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[integer very large]" time="0.023" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fraction &gt; 1]" time="0.013" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[integer very large]" time="0.025">
-          <error message="invalid Expression.toString (staff parser could not parse)" type="java.lang.RuntimeException">java.lang.RuntimeException: invalid Expression.toString (staff parser could not parse)
-	at expressivo.grader.ExpressivoTest.testParse(ExpressivoTest.java:100)
-Caused by: expressivo.staff.SyntaxError: Character 17: expected end_of_input, got E in expression &quot;9.007199254740992E15&quot;
-	at expressivo.staff.Parser.parse(Parser.java:23)
-	at expressivo.staff.Parser.parse(Parser.java:13)
-	at expressivo.grader.ExpressivoTest.testParse(ExpressivoTest.java:98)
-Caused by: expressivo.staff.SyntaxError: Character 17: expected end_of_input, got E
-	at expressivo.staff.Parser.eat(Parser.java:129)
-	at expressivo.staff.Parser.parse(Parser.java:48)
-	at expressivo.staff.Parser.parse(Parser.java:21)
-</error>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fraction &gt; 1]" time="0.013" />
 
-      </testcase>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[trailing zeros]" time="0.018" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[integer very large]" time="0.026">
-          <error message="invalid simplified expression (staff parser could not parse)" type="java.lang.RuntimeException">java.lang.RuntimeException: invalid simplified expression (staff parser could not parse)
-	at expressivo.grader.ExpressivoTest.testSimplify_xyz(ExpressivoTest.java:159)
-Caused by: expressivo.staff.SyntaxError: Character 17: expected end_of_input, got E in expression &quot;9.007199254740992E15&quot;
-	at expressivo.staff.Parser.parse(Parser.java:23)
-	at expressivo.staff.Parser.parse(Parser.java:13)
-	at expressivo.grader.ExpressivoTest.testSimplify_xyz(ExpressivoTest.java:157)
-Caused by: expressivo.staff.SyntaxError: Character 17: expected end_of_input, got E
-	at expressivo.staff.Parser.eat(Parser.java:129)
-	at expressivo.staff.Parser.parse(Parser.java:48)
-	at expressivo.staff.Parser.parse(Parser.java:21)
-</error>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[trailing zeros]" time="0.013" />
 
-      </testcase>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[trailing zeros]" time="0.013" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[x]" time="0.03" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[trailing zeros]" time="0.013" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[x]" time="0.016" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[no leading zero]" time="0.016" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[x]" time="0.016" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[no leading zero]" time="0.016" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[x]" time="0.014" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[no leading zero]" time="0.008" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[y]" time="0.015" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[no leading zero]" time="0.012" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[y]" time="0.016" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fraction very small]" time="0.011" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[y]" time="0.011" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fraction very small]" time="0.012" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[y]" time="0.009" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fraction very small]" time="0.009" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[other variable]" time="0.01" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fraction very small]" time="0.011" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[other variable]" time="0.01" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[integer very large]" time="0.009" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[other variable]" time="0.01" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[integer very large]" time="0.009" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[other variable]" time="0.021" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[integer very large]" time="0.033" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[variable with parens]" time="0.015" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[integer very large]" time="0.007" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[variable with parens]" time="0.01" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[x]" time="0.007" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[variable with parens]" time="0.012" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[x]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[variable with parens]" time="0.015" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[x]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[variable with extra parens]" time="0.011" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[x]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[variable with extra parens]" time="0.009" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[y]" time="0.007" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[variable with extra parens]" time="0.009" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[y]" time="0.009" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[variable with extra parens]" time="0.008" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[y]" time="0.012" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[add]" time="0.016" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[y]" time="0.012" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[add]" time="0.015" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[other variable]" time="0.011" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[add]" time="0.009" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[other variable]" time="0.009" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[add]" time="0.009" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[other variable]" time="0.012" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[add with extra parens]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[other variable]" time="0.013" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[add with extra parens]" time="0.017" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[variable with parens]" time="0.009" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[add with extra parens]" time="0.018" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[variable with parens]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[add with extra parens]" time="0.018" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[variable with parens]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[times]" time="0.03" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[variable with parens]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[times]" time="0.015" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[variable with extra parens]" time="0.012" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[times]" time="0.016" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[variable with extra parens]" time="0.008" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[times]" time="0.018" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[variable with extra parens]" time="0.008" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[times with extra parens]" time="0.025" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[variable with extra parens]" time="0.009" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[times with extra parens]" time="0.036" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[add]" time="0.008" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[times with extra parens]" time="0.025" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[add]" time="0.009" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[times with extra parens]" time="0.01" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[add]" time="0.007" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[* ( * )]" time="0.015" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[add]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[* ( * )]" time="0.015" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[add with extra parens]" time="0.012" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[* ( * )]" time="0.014" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[add with extra parens]" time="0.018" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[* ( * )]" time="0.015" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[add with extra parens]" time="0.015" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[add with extra parens]" time="0.041" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[times]" time="0.015" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[times]" time="0.014" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[times]" time="0.012" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[times]" time="0.016" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[times with extra parens]" time="0.014" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[times with extra parens]" time="0.018" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[times with extra parens]" time="0.009" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[times with extra parens]" time="0.011" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[* ( * )]" time="0.011" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[* ( * )]" time="0.011" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[* ( * )]" time="0.011" />
+
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[* ( * )]" time="0.011" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[( * ) *]" time="0.016" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[( * ) *]" time="0.015" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[( * ) *]" time="0.009" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[( * ) *]" time="0.016" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[( * ) *]" time="0.013" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[( * ) *]" time="0.016" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[( * ) *]" time="0.012" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[( * ) * ( * )]" time="0.018" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[( * ) * ( * )]" time="0.01" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[( * ) * ( * )]" time="0.015" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[( * ) * ( * )]" time="0.014" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[( * ) * ( * )]" time="0.01" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[( * ) * ( * )]" time="0.011" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[* * * * *]" time="0.011" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[* * * * *]" time="0.012" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[* * * * *]" time="0.011" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[* * * * *]" time="0.009" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[* * * * *]" time="0.01" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[* * * * *]" time="0.01" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[* * * * *]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[integers add]" time="0.009" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[integers add]" time="0.01" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[integers add]" time="0.008" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[integers add]" time="0.009" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[integers add]" time="0.009" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[integers add]" time="0.008" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[integers add]" time="0.015" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[integers add]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[integers times]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[integers times]" time="0.008" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[integers times]" time="0.017" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[integers times]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[integers times]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[integers times]" time="0.007" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[integers times]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[integers times]" time="0.01" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[integers with various ops]" time="0.0" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[integers with various ops]" time="0.0" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[integers with various ops]" time="0.001" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[integers with various ops]" time="0.012" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[integers with various ops]" time="0.007" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[integers with various ops]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[integers with various ops]" time="0.007" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fractions add]" time="0.009" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fractions add]" time="0.007" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fractions add]" time="0.008" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fractions add]" time="0.014" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fractions add]" time="0.008" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fractions add]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fractions add]" time="0.008" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fractions add]" time="0.011" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fractions times]" time="0.008" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fractions times]" time="0.007" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fractions times]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fractions times]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fractions times]" time="0.007" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fractions times]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fractions times]" time="0.007" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fractions times]" time="0.006" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fractions with various ops]" time="0.007" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fractions with various ops]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fractions with various ops]" time="0.008" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fractions with various ops]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fractions with various ops]" time="0.007" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fractions with various ops]" time="0.008" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fractions integers add]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fractions integers add]" time="0.007" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fractions integers add]" time="0.005" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fractions integers add]" time="0.008" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fractions integers add]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fractions integers add]" time="0.008" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fractions integers add]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fractions integers times]" time="0.008" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fractions integers times]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fractions integers times]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fractions integers times]" time="0.006" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fractions integers times]" time="0.017" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fractions integers times]" time="0.009" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fractions integers times]" time="0.015" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[decimal-fractions integers with various ops]" time="0.0" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fractions integers with various ops]" time="0.0" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[decimal-fractions integers with various ops]" time="0.001" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fractions integers with various ops]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[decimal-fractions integers with various ops]" time="0.018" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fractions integers with various ops]" time="0.015" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[decimal-fractions integers with various ops]" time="0.025" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[various variable names]" time="0.011">
-          <error message="error calling differentiate()" type="java.lang.RuntimeException">java.lang.RuntimeException: error calling differentiate()
-	at expressivo.grader.ExpressivoTest.testDifferentiate_dx(ExpressivoTest.java:113)
-Caused by: java.lang.IllegalArgumentException: lib6005.parser.UnableToParseException: Only parsed up to line 1 col 23 the rest of the input did not parse
-String does not match grammar 
-Error in line 1 col 23
-Expected [ ] but saw * HeLlOwOrLd * x&lt;EOIN&gt;
-	at expressivo.Expression.parse(Expression.java:47)
-	at expressivo.Commands.differentiate(Commands.java:28)
-	at expressivo.grader.ExpressivoTest.testDifferentiate_dx(ExpressivoTest.java:111)
-Caused by: lib6005.parser.UnableToParseException: Only parsed up to line 1 col 23 the rest of the input did not parse
-String does not match grammar 
-Error in line 1 col 23
-Expected [ ] but saw * HeLlOwOrLd * x&lt;EOIN&gt;
-	at lib6005.parser.Parser.parse(Parser.java:160)
-	at expressivo.Expression.parse(Expression.java:43)
-</error>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[various variable names]" time="0.023" />
 
-      </testcase>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[various variable names]" time="0.019" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[various variable names]" time="0.012">
-          <error message="error calling differentiate()" type="java.lang.RuntimeException">java.lang.RuntimeException: error calling differentiate()
-	at expressivo.grader.ExpressivoTest.testDifferentiate_dy(ExpressivoTest.java:131)
-Caused by: java.lang.IllegalArgumentException: lib6005.parser.UnableToParseException: Only parsed up to line 1 col 23 the rest of the input did not parse
-String does not match grammar 
-Error in line 1 col 23
-Expected [ ] but saw * HeLlOwOrLd * x&lt;EOIN&gt;
-	at expressivo.Expression.parse(Expression.java:47)
-	at expressivo.Commands.differentiate(Commands.java:28)
-	at expressivo.grader.ExpressivoTest.testDifferentiate_dy(ExpressivoTest.java:129)
-Caused by: lib6005.parser.UnableToParseException: Only parsed up to line 1 col 23 the rest of the input did not parse
-String does not match grammar 
-Error in line 1 col 23
-Expected [ ] but saw * HeLlOwOrLd * x&lt;EOIN&gt;
-	at lib6005.parser.Parser.parse(Parser.java:160)
-	at expressivo.Expression.parse(Expression.java:43)
-</error>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[various variable names]" time="0.019" />
 
-      </testcase>
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[various variable names]" time="0.013">
-          <error message="error calling parse()" type="java.lang.RuntimeException">java.lang.RuntimeException: error calling parse()
-	at expressivo.grader.ExpressivoTest.testParse(ExpressivoTest.java:95)
-Caused by: java.lang.IllegalArgumentException: lib6005.parser.UnableToParseException: Only parsed up to line 1 col 23 the rest of the input did not parse
-String does not match grammar 
-Error in line 1 col 23
-Expected [ ] but saw * HeLlOwOrLd * x&lt;EOIN&gt;
-	at expressivo.Expression.parse(Expression.java:47)
-	at expressivo.grader.ExpressivoTest.testParse(ExpressivoTest.java:93)
-Caused by: lib6005.parser.UnableToParseException: Only parsed up to line 1 col 23 the rest of the input did not parse
-String does not match grammar 
-Error in line 1 col 23
-Expected [ ] but saw * HeLlOwOrLd * x&lt;EOIN&gt;
-	at lib6005.parser.Parser.parse(Parser.java:160)
-	at expressivo.Expression.parse(Expression.java:43)
-</error>
-
-      </testcase>
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[various variable names]" time="0.012">
-          <error message="error calling simplify()" type="java.lang.RuntimeException">java.lang.RuntimeException: error calling simplify()
-	at expressivo.grader.ExpressivoTest.testSimplify_xyz(ExpressivoTest.java:154)
-Caused by: java.lang.IllegalArgumentException: lib6005.parser.UnableToParseException: Only parsed up to line 1 col 23 the rest of the input did not parse
-String does not match grammar 
-Error in line 1 col 23
-Expected [ ] but saw * HeLlOwOrLd * x&lt;EOIN&gt;
-	at expressivo.Expression.parse(Expression.java:47)
-	at expressivo.Commands.simplify(Commands.java:46)
-	at expressivo.grader.ExpressivoTest.testSimplify_xyz(ExpressivoTest.java:152)
-Caused by: lib6005.parser.UnableToParseException: Only parsed up to line 1 col 23 the rest of the input did not parse
-String does not match grammar 
-Error in line 1 col 23
-Expected [ ] but saw * HeLlOwOrLd * x&lt;EOIN&gt;
-	at lib6005.parser.Parser.parse(Parser.java:160)
-	at expressivo.Expression.parse(Expression.java:43)
-</error>
-
-      </testcase>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[various variable names]" time="0.016" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[nested left]" time="0.0" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[nested left]" time="0.0" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[nested left]" time="0.001" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[nested left]" time="0.012" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[nested left]" time="0.019" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[nested left]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[nested left]" time="0.017" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[nested center]" time="0.001" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[nested center]" time="0.0" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[nested center]" time="0.0" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[nested center]" time="0.013" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[nested center]" time="0.016" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[nested center]" time="0.012" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[nested center]" time="0.017" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[nested right]" time="0.0" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[nested right]" time="0.0" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[nested right]" time="0.022" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[nested right]" time="0.015" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[nested right]" time="0.008" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[nested right]" time="0.018" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[nested balanced]" time="0.0" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[nested balanced]" time="0.001" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[nested balanced]" time="0.0" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[nested balanced]" time="0.007" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[nested balanced]" time="0.015" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[nested balanced]" time="0.007" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[nested balanced]" time="0.024" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[polynomial in x/y/z]" time="0.0" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[polynomial in x/y/z]" time="0.001" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[polynomial in x/y/z]" time="0.0" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[polynomial in x/y/z]" time="0.007" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[polynomial in x/y/z]" time="0.026" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[polynomial in x/y/z]" time="0.006" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[polynomial in x/y/z]" time="0.027" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[polynomial in x/y/z with extra parens]" time="0.001" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[polynomial in x/y/z with extra parens]" time="0.0" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[polynomial in x/y/z with extra parens]" time="0.0" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[polynomial in x/y/z with extra parens]" time="0.003" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[polynomial in x/y/z with extra parens]" time="0.011" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[polynomial in x/y/z with extra parens]" time="0.036" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[polynomial in x/y/z with extra parens]" time="0.011" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[polynomial in x/y/z with extra parens]" time="0.037" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[polynomial in x/y/z and various other variables]" time="0.001" />
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dx[polynomial in x/y/z and various other variables]" time="0.0" />
 
       <testcase classname="expressivo.grader.ExpressivoTest" name="testDifferentiate_dy[polynomial in x/y/z and various other variables]" time="0.0" />
 
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[polynomial in x/y/z and various other variables]" time="0.012">
-          <error message="error calling parse()" type="java.lang.RuntimeException">java.lang.RuntimeException: error calling parse()
-	at expressivo.grader.ExpressivoTest.testParse(ExpressivoTest.java:95)
-Caused by: java.lang.IllegalArgumentException: lib6005.parser.UnableToParseException: String does not match grammar 
-Error in line 1 col 0
-Expected ||[0-9]|[a-z]|||[0-9]|[a-z]|||[0-9]|[a-z]|) but saw ((((4.0 * variable) * (x + TiMiThY)) + timithy) * ((timtim * x) + (JackOfSpades * jamoozywashere)))&lt;EOIN&gt;
-	at expressivo.Expression.parse(Expression.java:47)
-	at expressivo.grader.ExpressivoTest.testParse(ExpressivoTest.java:93)
-Caused by: lib6005.parser.UnableToParseException: String does not match grammar 
-Error in line 1 col 0
-Expected ||[0-9]|[a-z]|||[0-9]|[a-z]|||[0-9]|[a-z]|) but saw ((((4.0 * variable) * (x + TiMiThY)) + timithy) * ((timtim * x) + (JackOfSpades * jamoozywashere)))&lt;EOIN&gt;
-	at lib6005.parser.Parser.parse(Parser.java:153)
-	at expressivo.Expression.parse(Expression.java:43)
-</error>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testParse[polynomial in x/y/z and various other variables]" time="0.031" />
 
-      </testcase>
-
-      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[polynomial in x/y/z and various other variables]" time="0.007">
-          <error message="error calling simplify()" type="java.lang.RuntimeException">java.lang.RuntimeException: error calling simplify()
-	at expressivo.grader.ExpressivoTest.testSimplify_xyz(ExpressivoTest.java:154)
-Caused by: java.lang.IllegalArgumentException: lib6005.parser.UnableToParseException: String does not match grammar 
-Error in line 1 col 0
-Expected ||[0-9]|[a-z]|||[0-9]|[a-z]|||[0-9]|[a-z]|) but saw ((((4.0 * variable) * (x + TiMiThY)) + timithy) * ((timtim * x) + (JackOfSpades * jamoozywashere)))&lt;EOIN&gt;
-	at expressivo.Expression.parse(Expression.java:47)
-	at expressivo.Commands.simplify(Commands.java:46)
-	at expressivo.grader.ExpressivoTest.testSimplify_xyz(ExpressivoTest.java:152)
-Caused by: lib6005.parser.UnableToParseException: String does not match grammar 
-Error in line 1 col 0
-Expected ||[0-9]|[a-z]|||[0-9]|[a-z]|||[0-9]|[a-z]|) but saw ((((4.0 * variable) * (x + TiMiThY)) + timithy) * ((timtim * x) + (JackOfSpades * jamoozywashere)))&lt;EOIN&gt;
-	at lib6005.parser.Parser.parse(Parser.java:153)
-	at expressivo.Expression.parse(Expression.java:43)
-</error>
-
-      </testcase>
+      <testcase classname="expressivo.grader.ExpressivoTest" name="testSimplify_xyz[polynomial in x/y/z and various other variables]" time="0.028" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="ChanhNguyenPC" id="5" name="IllegalTest" package="expressivo.grader" skipped="0" tests="14" time="1.106" timestamp="2017-05-03T07:21:57">
+  <testsuite errors="0" failures="0" hostname="ChanhNguyenPC" id="5" name="IllegalTest" package="expressivo.grader" skipped="0" tests="14" time="1.482" timestamp="2017-05-03T10:25:15">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -1486,7 +1297,7 @@ Expected ||[0-9]|[a-z]|||[0-9]|[a-z]|||[0-9]|[a-z]|) but saw ((((4.0 * variable)
 
           <property name="beta.grader.jar" value="ps1-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner expressivo.grader.IllegalTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\TEST-expressivo.grader.IllegalTest.xml crashfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junitvmwatcher953834532558212637.properties propsfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junit7512092852282074531.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner expressivo.grader.IllegalTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\TEST-expressivo.grader.IllegalTest.xml crashfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junitvmwatcher411268882286205296.properties propsfile=C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\junit7457673564646547726.properties" />
 
           <property name="java.class.path" value="C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\junit-4.12.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\hamcrest-core-1.3.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\lib\parserlib.jar;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\bin-tests-final;C:\Users\Chanh Nguyen\workspace\ps1-expressivo\.grader\bin-student;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Chanh Nguyen\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -1540,37 +1351,545 @@ Expected ||[0-9]|[a-z]|||[0-9]|[a-z]|||[0-9]|[a-z]|) but saw ((((4.0 * variable)
 
       </properties>
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[missing op]" time="0.239" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[missing op]" time="0.409" />
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[adjacent vars]" time="0.07" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[adjacent vars]" time="0.063" />
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[unbalanced open]" time="0.041" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[unbalanced open]" time="0.056" />
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[unbalanced close]" time="0.036" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[unbalanced close]" time="0.041" />
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[empty parens]" time="0.042" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[empty parens]" time="0.04" />
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[empty nesting]" time="0.032" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[empty nesting]" time="0.034" />
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[prefix op]" time="0.032" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[prefix op]" time="0.038" />
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[postfix op]" time="0.035" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[postfix op]" time="0.028" />
 
       <testcase classname="expressivo.grader.IllegalTest" name="testParse[leading op]" time="0.028" />
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[trailing op]" time="0.026" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[trailing op]" time="0.039" />
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[multiple decimal points]" time="0.032" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[multiple decimal points]" time="0.031" />
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[lone op]" time="0.025" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[lone op]" time="0.022" />
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[lone decimal point]" time="0.024" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[lone decimal point]" time="0.025" />
 
-      <testcase classname="expressivo.grader.IllegalTest" name="testParse[lone nested op]" time="0.026" />
+      <testcase classname="expressivo.grader.IllegalTest" name="testParse[lone nested op]" time="0.022" />
 
       <system-out><![CDATA[]]></system-out>
 
-      <system-err><![CDATA[]]></system-err>
+      <system-err><![CDATA[lib6005.parser.UnableToParseException: Only parsed up to line 1 col 2 the rest of the input did not parse
+String does not match grammar 
+Error in line 1 col 2
+Expected [ ] but saw x<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:160)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: Only parsed up to line 1 col 2 the rest of the input did not parse
+String does not match grammar 
+Error in line 1 col 2
+Expected [ ] but saw x<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:160)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: String does not match grammar 
+Error in line 1 col 0
+Expected |||[0-9]|.|[a-zA-Z]|) but saw (x * x<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:153)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: Only parsed up to line 1 col 5 the rest of the input did not parse
+String does not match grammar 
+Error in line 1 col 5
+Expected [ ] but saw )<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:160)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: String does not match grammar 
+Error in line 1 col 0
+Expected |||[0-9]|.|[a-zA-Z]||||[0-9]|.|[a-zA-Z]|( but saw ()<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:153)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: String does not match grammar 
+Error in line 1 col 0
+Expected |||[0-9]|.|[a-zA-Z]||||[0-9]|.|[a-zA-Z]||||[0-9]|.|[a-zA-Z]||||[0-9]|.|[a-zA-Z]|( but saw ((()))<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:153)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: String does not match grammar 
+Error in line 1 col 0
+Expected |||[0-9]|.|[a-zA-Z]||||[0-9]|.|[a-zA-Z]|( but saw (+ 3 x)<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:153)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: String does not match grammar 
+Error in line 1 col 0
+Expected |||[0-9]|.|[a-zA-Z]|) but saw (x 3 +)<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:153)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: String does not match grammar 
+Error in line 1 col 0
+Expected |||[0-9]|.|[a-zA-Z]||||[0-9]|.|[a-zA-Z]|( but saw (* 3 * x)<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:153)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: String does not match grammar 
+Error in line 1 col 0
+Expected |||[0-9]|.|[a-zA-Z]|) but saw (x * 3 *)<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:153)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: Only parsed up to line 1 col 3 the rest of the input did not parse
+String does not match grammar 
+Error in line 1 col 3
+Expected [ ] but saw .3<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:160)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: String does not match grammar 
+Error in line 1 col 0
+Expected |||[0-9]|.|[a-zA-Z]|( but saw +<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:153)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: String does not match grammar 
+Error in line 1 col 0
+Expected |||[0-9]|[0-9]|[a-zA-Z]|( but saw .<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:153)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+lib6005.parser.UnableToParseException: String does not match grammar 
+Error in line 1 col 0
+Expected |||[0-9]|.|[a-zA-Z]||||[0-9]|.|[a-zA-Z]|( but saw (*)<EOIN>
+	at lib6005.parser.Parser.parse(Parser.java:153)
+	at expressivo.Expression.parse(Expression.java:43)
+	at expressivo.grader.IllegalTest.testParse(IllegalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+]]></system-err>
 
   </testsuite>
 </testsuites>

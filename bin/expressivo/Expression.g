@@ -18,6 +18,6 @@ root ::= sum;
 	product ::= primitive ('*' primitive)*;
 	primitive ::= number | variable | '(' sum ')';
 }
-number ::= [0-9]+ ("."[0-9]+)?;
-variable ::= [a-z]+;
+number ::= ([0-9]+ ("."[0-9]+)? | "."[0-9]+) ([eE]"-"?[0-9]+)?;
+variable ::= [a-zA-Z]+;
 whitespace ::= [ ]+;
