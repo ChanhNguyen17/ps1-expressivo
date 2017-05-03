@@ -16,7 +16,7 @@ public class Power implements Expression{
     
     @Override 
     public String toString(){
-        return this.base + " ^ (" + this.exponent+")";
+        return this.base + "^" + this.exponent;
     };
     
     @Override
@@ -35,26 +35,32 @@ public class Power implements Expression{
     
     @Override
     public Expression differentiate(Variable var) {
-        // TODO Auto-generated method stub
-        return null;
+        // Not yet finished
+        return this.base.differentiate(var);
     }
 
     @Override
     public String simplify(Map<String, Double> environment) {
-        // TODO Auto-generated method stub
-        return null;
+        String simplifyBase = this.base.simplify(environment);
+        String simplifyExponent = this.exponent.simplify(environment);
+        try{
+            double valueBase = Double.parseDouble(simplifyBase);
+            double valueExponent = Double.parseDouble(simplifyExponent);
+            return String.valueOf(Math.pow(valueBase, valueExponent));
+        }catch(NumberFormatException e){}
+        return simplifyBase + "^" + simplifyExponent;
     }
 
     @Override
     public Double value(Map<String, Double> environment) throws NullPointerException {
-        // TODO Auto-generated method stub
-        return null;
+        return Math.pow(this.base.value(environment), this.exponent.value(environment));
     }
 
     @Override
     public Set<String> allVariables(Set<String> currentSet) {
-        // TODO Auto-generated method stub
-        return null;
+        Set<String> setBase = this.base.allVariables(currentSet);
+        Set<String> setExponent = this.exponent.allVariables(currentSet);
+        setBase.addAll(setExponent);
+        return setBase;
     }
-    
 }

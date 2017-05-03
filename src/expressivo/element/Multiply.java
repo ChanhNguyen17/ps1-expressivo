@@ -15,7 +15,7 @@ private final Expression left, right;
     
     @Override 
     public String toString(){
-        return this.left + "*" + this.right;
+        return "("+this.left + "*" + this.right+")";
     };
     
     @Override
@@ -48,7 +48,7 @@ private final Expression left, right;
             double valueRight = Double.parseDouble(simplifyRight);
             return String.valueOf(valueLeft * valueRight);
         }catch(NumberFormatException e){}
-        return simplifyLeft + " * " + simplifyRight;
+        return "("+simplifyLeft + "*" + simplifyRight+")";
     }
 
     @Override

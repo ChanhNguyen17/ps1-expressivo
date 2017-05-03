@@ -47,7 +47,7 @@ public interface Expression {
             e.printStackTrace();
             throw new IllegalArgumentException(e);
         }
-        tree.display();
+//        tree.display();
         return Expression.buildAST(tree);
     }
     
