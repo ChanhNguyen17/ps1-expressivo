@@ -15,9 +15,7 @@ public class Sandbox {
     static String skipS;
     
     public static void main(String[] args){
-        double a = 10e5;
-        double b = 1000000;
-        System.out.println(a==b);
+        System.out.println((int)(Math.E*100));
     }
     
     public static void ExpressivoTest(String name, String expr, String skip) {

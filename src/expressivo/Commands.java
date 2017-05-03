@@ -1,10 +1,7 @@
 package expressivo;
 
-import java.io.IOException;
 import java.util.Map;
-
 import expressivo.element.Variable;
-import lib6005.parser.UnableToParseException;
 
 /**
  * String-based commands provided by the expression system.

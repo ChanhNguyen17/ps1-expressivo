@@ -8,6 +8,7 @@ import java.util.Set;
 import expressivo.element.Multiply;
 import expressivo.element.Number;
 import expressivo.element.Plus;
+import expressivo.element.Power;
 import expressivo.element.Variable;
 import lib6005.parser.*;
 
@@ -26,7 +27,7 @@ public interface Expression {
     
     // Datatype definition
     //   TODO
-    enum IntegerGrammar {ROOT, SUM, PRODUCT, PRIMITIVE, NUMBER, VARIABLE, WHITESPACE};
+    enum IntegerGrammar {ROOT, SUM, PRODUCT, POWER, PRIMITIVE, NUMBER, VARIABLE, WHITESPACE};
     /**
      * Parse an expression.
      * @param input expression to parse, as defined in the PS1 handout.
@@ -46,7 +47,7 @@ public interface Expression {
             e.printStackTrace();
             throw new IllegalArgumentException(e);
         }
-//        tree.display();
+        tree.display();
         return Expression.buildAST(tree);
     }
     
@@ -72,7 +73,7 @@ public interface Expression {
             /*
              * A variable will be a terminal containing a sign.
              */
-            return new Variable(p.getContents());     
+            return new Variable(p.getContents());   
         case PRIMITIVE:
             /*
              * A primitive will have either a number or a sum as child (in addition to some whitespace)
@@ -85,9 +86,6 @@ public interface Expression {
             }else if(!p.childrenByName(IntegerGrammar.SUM).isEmpty()){
                 return buildAST(p.childrenByName(IntegerGrammar.SUM).get(0));
             }
-//            else{
-//                return buildAST(p.childrenByName(IntegerGrammar.PRODUCT).get(0));
-//            }
         case SUM:
             /*
              * A sum will have one or more children that need to be summed together.
@@ -117,7 +115,7 @@ public interface Expression {
         case PRODUCT:
             boolean firstM = true;
             Expression resultM = null;
-            for(ParseTree<IntegerGrammar> child : p.childrenByName(IntegerGrammar.PRIMITIVE)){                
+            for(ParseTree<IntegerGrammar> child : p.childrenByName(IntegerGrammar.POWER)){                
                 if(firstM){
                     resultM = buildAST(child);
                     firstM = false;
@@ -141,7 +139,23 @@ public interface Expression {
             if (firstM) {
                 throw new RuntimeException("product must have a non whitespace child:" + p);
             }
-            return resultM;    
+            return resultM;
+        case POWER:
+            boolean firstP = true;
+            Expression resultP = null;
+            for(ParseTree<IntegerGrammar> child : p.childrenByName(IntegerGrammar.PRIMITIVE)){                
+                if(firstP){
+                    resultP = buildAST(child);
+                    firstP = false;
+                }else{
+                    Expression resultPRight = buildAST(child);
+                    resultP = new Power(resultP, resultPRight);
+                }
+            }
+            if (firstP) {
+                throw new RuntimeException("power must have a non whitespace child:" + p);
+            }
+            return resultP;
         case ROOT:
             /*
              * The root has a single sum child, in addition to having potentially some whitespace.

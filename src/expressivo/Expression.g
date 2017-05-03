@@ -15,9 +15,10 @@
 root ::= sum;
 @skip whitespace{
 	sum ::= product ('+' product)*;
-	product ::= primitive ('*' primitive)*;
+	product ::= power ('*' power)*;
+	power ::= primitive ('^' primitive)*;
 	primitive ::= number | variable | '(' sum ')';
 }
-number ::= ([0-9]+ ("."[0-9]+)? | "."[0-9]+) ([eE]"-"?[0-9]+)?;
+number ::= [+-]? ([0-9]+ ("."[0-9]+)? | "."[0-9]+) ([eE]"-"?[0-9]+)?;
 variable ::= [a-zA-Z]+;
 whitespace ::= [ ]+;
