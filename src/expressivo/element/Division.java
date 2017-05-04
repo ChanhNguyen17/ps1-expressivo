@@ -20,9 +20,25 @@ public class Division implements Expression{
     };
     
     @Override
+    public boolean equals(Object thatObject){
+        if(thatObject==null || this.getClass()!=thatObject.getClass()){
+            return false;
+        }
+        Division thatObjectDivision = (Division)thatObject;
+        return this.up.equals(thatObjectDivision.up) && this.down.equals(thatObjectDivision.down);
+    }
+    
+    @Override
+    public int hashCode(){
+        return this.up.hashCode() / this.down.hashCode();
+    }
+    
+    @Override
     public Expression differentiate(Variable var) {
-        // TODO Auto-generated method stub
-        return null;
+        // Not yet finished
+        Expression diffUp = new Division(this.up, this.down.differentiate(var));
+        Expression diffDown = new Division(this.down, this.up.differentiate(var));
+        return new Subtract(diffUp, diffDown);
     }
 
     @Override

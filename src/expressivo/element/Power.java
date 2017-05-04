@@ -30,7 +30,7 @@ public class Power implements Expression{
     
     @Override
     public int hashCode(){
-        return this.base.hashCode() + (int)(Math.E * this.exponent.hashCode());
+        return (int) Math.pow(this.base.hashCode(), this.exponent.hashCode());
     }
     
     @Override
