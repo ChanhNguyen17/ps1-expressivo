@@ -30,13 +30,13 @@ public class Main {
      * @throws IOException if there is an error reading the input
      * @throws UnableToParseException 
      */
-//    public static void main(String[] args){
-//        
-//        String aStr = "2*(x+y)+t";
-//        String bStr = "2*x+t+2*y";
-//        
-//        System.out.println(compare(aStr, bStr));
-//    }
+    public static void main(String[] args){
+        
+        String aStr = "2*(x+y)+t";
+        String bStr = "2*x+t+2*y";
+        
+        System.out.println(compare(aStr, bStr));
+    }
     
     public static boolean compare(String aStr, String bStr){
         Expression a = Expression.parse(aStr);
@@ -75,44 +75,44 @@ public class Main {
         return true;
     }
     
-    public static void main(String[] args) throws IOException{
-        final BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        Optional<String> currentExpression = Optional.empty();
-        
-        while (true) {
-            System.out.print("> ");
-            final String input = in.readLine();
-            
-            if (input.isEmpty()) {
-                return; // exits the program
-            }
-            
-            try {
-                final String output;
-                
-                if (input.startsWith(DIFFERENTIATE_PREFIX)) {
-                    final String variable = parseDifferentiate(input);
-                    output = Commands.differentiate(currentExpression.get(), variable);
-                    currentExpression = Optional.of(output);
-                } else if (input.startsWith(SIMPLIFY_PREFIX)) {
-                    final Map<String,Double> environment = parseSimpify(input);
-                    output = Commands.simplify(currentExpression.get(), environment);
-                    // ... but don't change currentExpression
-                } else {
-                    final Expression expression = Expression.parse(input);
-                    output = expression.toString();
-                    currentExpression = Optional.of(output);
-                }
-                
-                System.out.println(output);
-            } catch (NoSuchElementException nse) {
-                // currentExpression was empty
-                System.out.println("must enter an expression before using this command");
-            } catch (RuntimeException re) {
-                System.out.println(re.getClass().getName() + ": " + re.getMessage());
-            }
-        }
-    }
+//    public static void main(String[] args) throws IOException{
+//        final BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+//        Optional<String> currentExpression = Optional.empty();
+//        
+//        while (true) {
+//            System.out.print("> ");
+//            final String input = in.readLine();
+//            
+//            if (input.isEmpty()) {
+//                return; // exits the program
+//            }
+//            
+//            try {
+//                final String output;
+//                
+//                if (input.startsWith(DIFFERENTIATE_PREFIX)) {
+//                    final String variable = parseDifferentiate(input);
+//                    output = Commands.differentiate(currentExpression.get(), variable);
+//                    currentExpression = Optional.of(output);
+//                } else if (input.startsWith(SIMPLIFY_PREFIX)) {
+//                    final Map<String,Double> environment = parseSimpify(input);
+//                    output = Commands.simplify(currentExpression.get(), environment);
+//                    // ... but don't change currentExpression
+//                } else {
+//                    final Expression expression = Expression.parse(input);
+//                    output = expression.toString();
+//                    currentExpression = Optional.of(output);
+//                }
+//                
+//                System.out.println(output);
+//            } catch (NoSuchElementException nse) {
+//                // currentExpression was empty
+//                System.out.println("must enter an expression before using this command");
+//            } catch (RuntimeException re) {
+//                System.out.println(re.getClass().getName() + ": " + re.getMessage());
+//            }
+//        }
+//    }
  
     private static final String DIFFERENTIATE_PREFIX = "!d/d";
     private static final String VARIABLE = "[A-Za-z]+";
